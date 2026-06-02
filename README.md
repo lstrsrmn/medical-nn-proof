@@ -1,5 +1,5 @@
 # Vancomycert proof artefacts
-The proof can be reproduced by using [vehicle](https://github.com/vehicle-lang/vehicle) and [mathcomp analysis](https://github.com/math-comp/analysis) version 1.16.0.
+The proof can be reproduced by using [vehicle](https://github.com/vehicle-lang/vehicle), [mathcomp](https://github.com/math-comp/math-comp) version 2.6.0 and [mathcomp analysis](https://github.com/math-comp/analysis) version 1.16.0. At the time of writing, these packages have some conflicts and may have to be installed manually.
 
 To do so, use this command to build the file `Spec.v`, the Rocq extraction of `pk.vcl`. You can change the parameters `-p` in the compile command and the proof will still go through. A `_CoqProject` file has also been provided for ease of building.
 ```shell
